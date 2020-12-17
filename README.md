@@ -1,8 +1,3 @@
-# CSE330
-488493
-
-488494
-
 # Cart & Go  
 "Cart & Go" allows user to select food & drink from a restaurant with premade menu. The app also allows user to get food/restaurant recommendations based on their location.
 
