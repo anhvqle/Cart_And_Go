@@ -4,6 +4,25 @@
 #### Visit Our Website Here:  
 http://ec2-3-137-176-157.us-east-2.compute.amazonaws.com:3000/
 
+# Functionality
+- User Data Management:
+    - New users can register/log in using their previously created account.
+    - Paswords are hashed, salted, and checked securely.
+    - Users can log out.
+    - User information are safely stored in a MongoDB database.
+    - By correctly entering the username, email, and old password, user can reset their password.
+- Food Section:
+    - Successfully displayed a premade menu.
+    - Users should be able to add meals to their cart and checkout.
+    - A notification should pop up on main screen about the total cost of the order.
+- Food recommendation by location:
+    - Users can see a list of restaurant recommendations based on their nearby location.
+    - Users can see a list of famous food in the country they are in.
+- Drinks Section:
+    - Utilize an free online APIs to generate drinks based on the user's ingredient options. 
+- Order History
+    - User's order history is saved for future reference in a MongoDB database. User can see their detailed history orders with purchased date, purchased items, quantity, total cost, etc.    
+
 # App Demo
 ### Log In/Register Page
 <img src="demo/login.png" width="500">
